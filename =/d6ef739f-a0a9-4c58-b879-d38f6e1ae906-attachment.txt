@@ -1,0 +1,10 @@
+---------------response----------------
+200
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Access-Control-Allow-Origin: http://qa.yansl.com:8084
+Access-Control-Allow-Credentials: true
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 15 Jul 2020 02:46:18 GMT
+
+{"code":9999,"message":"订单价格不能小于1；手机号码格式错误；","data":""}

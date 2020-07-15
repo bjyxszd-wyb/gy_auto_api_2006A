@@ -1,0 +1,36 @@
+[32mINFO    [0m tools.report.log_tool:log_tool.py:34 ----请求用时: 233.812 秒数
+[32mINFO    [0m tools.report.log_tool:log_tool.py:34 -------------------request-------------
+                                              http://192.168.1.151:8084/login
+                                              User-Agent: python-requests/2.22.0
+                                              Accept-Encoding: gzip, deflate
+                                              Accept: */*
+                                              Connection: keep-alive
+                                              Content-Length: 42
+                                              Content-Type: application/json
+                                              
+                                              b'{"pwd": "qwe30446", "userName": "str5231"}'
+[32mINFO    [0m tools.report.log_tool:log_tool.py:34 ---------------response----------------
+                                              200
+                                              Content-Type: application/json;charset=UTF-8
+                                              Transfer-Encoding: chunked
+                                              Date: Wed, 15 Jul 2020 02:46:18 GMT
+                                              
+                                              {"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTk0NzgyOTc4MzI4LCJ1c2VySWQiOjI1NTg1LCJ1c2VyTmFtZSI6InN0cjUyMzEifQ==","userName":"str5231"}}
+[32mINFO    [0m tools.report.log_tool:log_tool.py:34 ----请求用时: 67.707 秒数
+[32mINFO    [0m tools.report.log_tool:log_tool.py:34 -------------------request-------------
+                                              http://192.168.1.151:8084/login
+                                              User-Agent: python-requests/2.22.0
+                                              Accept-Encoding: gzip, deflate
+                                              Accept: */*
+                                              Connection: keep-alive
+                                              Content-Length: 42
+                                              Content-Type: application/json
+                                              
+                                              b'{"pwd": "qwe30446", "userName": "str5231"}'
+[32mINFO    [0m tools.report.log_tool:log_tool.py:34 ---------------response----------------
+                                              200
+                                              Content-Type: application/json;charset=UTF-8
+                                              Transfer-Encoding: chunked
+                                              Date: Wed, 15 Jul 2020 02:46:18 GMT
+                                              
+                                              {"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTk0NzgyOTc4NDU0LCJ1c2VySWQiOjI1NTg1LCJ1c2VyTmFtZSI6InN0cjUyMzEifQ==","userName":"str5231"}}

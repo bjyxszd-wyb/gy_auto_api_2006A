@@ -1,0 +1,19 @@
+----请求用时: 44.435 秒数
+-------------------request-------------
+http://192.168.1.151:8084/acc/recharge
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 51
+Content-Type: application/json
+
+b'{"accountName": "${userName}", "changeMoney": 9999}'
+---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 15 Jul 2020 02:46:18 GMT
+
+{"code":9999,"message":"该账户不存在","data":""}
+不包含期望值, 期望值 是  2000
